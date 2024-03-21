@@ -3997,7 +3997,7 @@
 }
 
 .body-7 {
-  height: 500vh;
+  height: auto;
   background-color: #000;
   border-radius: 35px;
   flex-direction: row;
@@ -6253,7 +6253,7 @@
 
 .div-block-302 {
   height: 50vh;
-  background-image: url('../images/_MG_9360-min.png');
+  background-image: url('../images/_MG_9360-min-p-1080.png');
   background-position: 50%;
   background-size: cover;
   margin-top: 1vh;
@@ -6350,7 +6350,7 @@
 .uxr10 {
   width: 100%;
   height: 50vh;
-  background-image: url('../images/_MG_8686-min.png');
+  background-image: url('../images/_MG_8686-min-p-1080.png');
   background-position: 50%;
   background-size: cover;
   margin-bottom: 1vh;
@@ -6359,7 +6359,7 @@
 .uxr11 {
   width: 100%;
   height: 50vh;
-  background-image: url('../images/_MG_8253-min.png');
+  background-image: url('../images/_MG_8253-min-p-1080.png');
   background-position: 50%;
   background-size: cover;
   margin-bottom: 1vh;
@@ -6368,7 +6368,7 @@
 .uxr12 {
   width: 100%;
   height: 50vh;
-  background-image: url('../images/_MG_9561-min.png');
+  background-image: url('../images/_MG_9561-min-p-1080.png');
   background-position: 50%;
   background-size: cover;
   margin-bottom: 1vh;
@@ -6387,7 +6387,7 @@
 
 .uxr14 {
   height: 50vh;
-  background-image: url('../images/_MG_8559-1-min.png');
+  background-image: url('../images/_MG_8559-1-min-p-1080.png');
   background-position: 50%;
   background-size: cover;
   margin-top: 1vh;
@@ -11168,7 +11168,7 @@
 .div-block-533 {
   max-width: none;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   margin-right: 0;
   display: flex;
 }
@@ -11578,8 +11578,8 @@
   background-size: 500px;
   background-attachment: fixed;
   background-clip: border-box;
-  margin-top: -7vh;
-  position: fixed;
+  margin-top: 0;
+  position: absolute;
 }
 
 .div-block-550 {
@@ -11598,9 +11598,9 @@
   background-color: #000;
   justify-content: center;
   align-items: center;
-  margin-top: -7vh;
+  margin-top: 0;
   display: flex;
-  position: fixed;
+  position: absolute;
 }
 
 .div-block-552 {
@@ -11621,14 +11621,14 @@
   height: 100vh;
   justify-content: center;
   align-items: center;
-  margin-top: -7vh;
+  margin-top: 0;
   display: flex;
-  position: fixed;
+  position: absolute;
 }
 
 .div-block-554 {
   width: 1200px;
-  height: 1200px;
+  height: 100vh;
   justify-content: center;
   align-items: center;
   padding-top: 0;
@@ -11648,7 +11648,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  margin-left: 50vw;
+  margin-left: 60vw;
   display: flex;
   position: fixed;
 }
@@ -12958,16 +12958,12 @@
 
 .section-120 {
   height: 100vh;
-  background-image: url('../images/_MG_4360-min.JPG');
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: scroll;
 }
 
 .div-block-613 {
   background-image: url('../images/_MG_3371-min.JPG');
   background-position: 50%;
+  background-repeat: no-repeat;
   background-size: cover;
   display: block;
 }
@@ -13113,6 +13109,73 @@
   justify-content: center;
   align-items: center;
   display: flex;
+}
+
+.image-38 {
+  height: auto;
+  object-fit: cover;
+  display: inline-block;
+}
+
+.image-39 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.image-40 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-41 {
+  width: 100%;
+  height: 100%;
+}
+
+.image-42, .image-43, .image-44 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section-122 {
+  height: 100vh;
+  margin-top: 0;
+}
+
+.section-123 {
+  height: 100vh;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  flex-flow: column;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.image-45, .image-46 {
+  width: 300px;
+  margin-right: 20px;
+}
+
+.image-47, .image-48 {
+  width: 300px;
+}
+
+.image-49 {
+  width: 300px;
+  margin-bottom: 50px;
+}
+
+.section-124 {
+  height: 50vh;
 }
 
 @media screen and (max-width: 991px) {
@@ -14497,16 +14560,16 @@
   grid-area: 1 / 4 / 5 / 9;
 }
 
-#w-node-a98299d9-2421-ccc9-efd0-206c7bef8a76-d17a02af {
-  grid-area: 1 / 4 / 7 / 6;
+#w-node-_5b1ffd1d-fa95-cda5-2e7a-ab5390fa991d-d17a02af {
+  grid-area: 1 / 1 / 4 / 4;
 }
 
-#w-node-_2fa49adf-15c3-b9d3-029a-89914b30d538-d17a02af {
+#w-node-b6a7a8bb-1f8b-3c77-77d3-1c06447f3f20-d17a02af {
   grid-area: 1 / 6 / 7 / 8;
 }
 
-#w-node-f97ea4ed-5208-e2e5-1165-bd2fc75e6349-d17a02af {
-  grid-area: 1 / 1 / 4 / 4;
+#w-node-f8838be8-aa55-485b-aa12-ddf363bcfa8c-d17a02af {
+  grid-area: 1 / 4 / 7 / 6;
 }
 
 #w-node-_331d590e-7c06-12ed-d15f-36ce93f99d2a-d17a02af {
@@ -14521,16 +14584,16 @@
   grid-area: 2 / 3 / 5 / 7;
 }
 
-#w-node-_12e827b0-29fe-03c2-f98f-dc01fe391e66-d17a02af {
-  grid-area: 1 / 6 / 6 / 7;
+#w-node-_2287d17e-74f7-96de-dcba-1fa57669f547-d17a02af {
+  grid-area: 1 / 4 / 6 / 6;
 }
 
-#w-node-_9ab1180a-b0e1-a24e-4d48-ee59dcd0c7c1-d17a02af {
+#w-node-_57674b95-9528-901c-18da-ec4251cf0fc0-d17a02af {
   grid-area: 1 / 3 / 6 / 4;
 }
 
-#w-node-_8aebf751-8db0-c3f3-c4f2-0ce180b23e62-d17a02af {
-  grid-area: 1 / 4 / 6 / 6;
+#w-node-_39ace212-05f7-29f5-5575-ac03d3ff1047-d17a02af {
+  grid-area: 1 / 6 / 6 / 7;
 }
 
 #w-node-e509c269-04ab-32a8-2fd2-6c18846aa0c8-d17a02af {
@@ -14658,36 +14721,12 @@
     grid-area: 3 / 5 / 5 / 9;
   }
 
-  #w-node-a98299d9-2421-ccc9-efd0-206c7bef8a76-d17a02af {
-    grid-area: 5 / 1 / 9 / 5;
-  }
-
-  #w-node-_2fa49adf-15c3-b9d3-029a-89914b30d538-d17a02af {
-    grid-area: 5 / 5 / 9 / 9;
-  }
-
-  #w-node-f97ea4ed-5208-e2e5-1165-bd2fc75e6349-d17a02af {
-    grid-area: 1 / 1 / 5 / 9;
-  }
-
   #w-node-_331d590e-7c06-12ed-d15f-36ce93f99d2a-d17a02af {
     grid-area: 1 / 5 / 7 / 9;
   }
 
   #w-node-fae81b99-18ac-742c-1199-73aa30086a98-d17a02af {
     grid-area: 1 / 1 / 5 / 5;
-  }
-
-  #w-node-_12e827b0-29fe-03c2-f98f-dc01fe391e66-d17a02af {
-    grid-area: 1 / 7 / 6 / 9;
-  }
-
-  #w-node-_9ab1180a-b0e1-a24e-4d48-ee59dcd0c7c1-d17a02af {
-    grid-area: 1 / 1 / 6 / 3;
-  }
-
-  #w-node-_8aebf751-8db0-c3f3-c4f2-0ce180b23e62-d17a02af {
-    grid-area: 1 / 3 / 6 / 7;
   }
 
   #w-node-e509c269-04ab-32a8-2fd2-6c18846aa0c8-d17a02af {

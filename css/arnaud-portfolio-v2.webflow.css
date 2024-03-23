@@ -6244,7 +6244,7 @@
 
 .div-block-301 {
   height: 50vh;
-  background-image: url('../images/Bus-event-82-1.png');
+  background-image: url('../images/Bus-event-82-12.webp');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -6253,7 +6253,7 @@
 
 .div-block-302 {
   height: 50vh;
-  background-image: url('../images/_MG_9360-min-p-1080.png');
+  background-image: url('../images/_MG_9360-min-p-1080_1.png');
   background-position: 50%;
   background-size: cover;
   margin-top: 1vh;
@@ -6350,7 +6350,7 @@
 .uxr10 {
   width: 100%;
   height: 50vh;
-  background-image: url('../images/_MG_8686-min-p-1080.png');
+  background-image: url('../images/_MG_8686-min-p-1080_1.png');
   background-position: 50%;
   background-size: cover;
   margin-bottom: 1vh;
@@ -6359,7 +6359,7 @@
 .uxr11 {
   width: 100%;
   height: 50vh;
-  background-image: url('../images/_MG_8253-min-p-1080.png');
+  background-image: url('../images/_MG_8253-min-p-1080_1.png');
   background-position: 50%;
   background-size: cover;
   margin-bottom: 1vh;
@@ -6368,7 +6368,7 @@
 .uxr12 {
   width: 100%;
   height: 50vh;
-  background-image: url('../images/_MG_9561-min-p-1080.png');
+  background-image: url('../images/_MG_9561-min-p-1080_1.png');
   background-position: 50%;
   background-size: cover;
   margin-bottom: 1vh;
@@ -6387,7 +6387,7 @@
 
 .uxr14 {
   height: 50vh;
-  background-image: url('../images/_MG_8559-1-min-p-1080.png');
+  background-image: url('../images/_MG_8559-1-min-p-1080_1.png');
   background-position: 50%;
   background-size: cover;
   margin-top: 1vh;
@@ -12170,7 +12170,6 @@
   z-index: 1;
   height: 50vh;
   position: absolute;
-  transform: translate(264px)rotate(18deg);
 }
 
 .section-114 {
@@ -13112,7 +13111,8 @@
 }
 
 .image-38 {
-  height: auto;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   display: inline-block;
 }
@@ -13124,18 +13124,7 @@
   overflow: hidden;
 }
 
-.image-40 {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.image-41 {
-  width: 100%;
-  height: 100%;
-}
-
-.image-42, .image-43, .image-44 {
+.image-40, .image-41, .image-42, .image-43, .image-44 {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -13176,6 +13165,22 @@
 
 .section-124 {
   height: 50vh;
+}
+
+.background-video-7 {
+  object-fit: cover;
+  overflow: visible;
+}
+
+.image-50 {
+  object-fit: cover;
+}
+
+.image-51, .image-51-copy2, .image-51-copy3, .image-51-copy4, .image-51-copy5, .image-51-copy6, .image-51-copy7, .arrival-image_webp_1 {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  margin-bottom: 1vh;
 }
 
 @media screen and (max-width: 991px) {
